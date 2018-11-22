@@ -1,0 +1,4 @@
+djproxy
+django-extensions
+werkzeug
+pyopenssl
