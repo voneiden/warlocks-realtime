@@ -11,7 +11,7 @@ function orders_in(str) {
 }
 
 function init() {
-    if (window.location.pathname !== '/warlocks' && !game_ended()) {
+    if (window.location.pathname !== '/warlocks' || game_ended()) {
         return;
     }
     if (Notification.permission === 'default') {
